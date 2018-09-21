@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue-Thin.ttf") format("truetype");
+    src: local("../fonts/BebasNeue-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/materialize-icon.woff2); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/materialize-icon.woff2) format('woff2');
+}
+@font-face {
+    font-family: Space Age;
+    src: url("../fonts/SPACE AGE.TTF") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: Engravers;
+    src: url("../fonts/Engravers Gothic BT.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue-Light.ttf") format("truetype");
+    src: local("../fonts/BebasNeue-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+    src: local("../fonts/BebasNeue-Regular.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue-Book.ttf") format("truetype");
+    src: local("../fonts/BebasNeue-Book.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/BebasNeue-Bold.ttf") format("truetype");
+    src: local("../fonts/BebasNeue-Bold.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/HelveticaLTStd-Roman.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/HelveticaLTStd-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/fonts2/icomoon.eot?pgzlwb');
+  src:  url('../fonts/fonts2/icomoon.eot?pgzlwb#iefix') format('embedded-opentype'),
+    url('../fonts/fonts2/icomoon.ttf?pgzlwb') format('truetype'),
+    url('../fonts/fonts2/icomoon.woff?pgzlwb') format('woff'),
+    url('../fonts/fonts2/icomoon.svg?pgzlwb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-geco1:before {
+  content: "\e900";
+}
+.icon-geco2:before {
+  content: "\e901";
+}
+.icon-radiator:before {
+  content: "\e902";
+}
+.icon-radiator2:before {
+  content: "\e903";
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7auocl');
+  src:  url('../fonts/icomoon.eot?7auocl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7auocl') format('truetype'),
+    url('../fonts/icomoon.woff?7auocl') format('woff'),
+    url('../fonts/icomoon.svg?7auocl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-address-book:before {
+  content: "\e944";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}

@@ -1,0 +1,63 @@
+/* Сброс */
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+	content: ' ';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.hidden {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Основные стили */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: #f0f0f0;
+	outline: none;
+}
+
+a:hover {
+	color: #516977;
+}
+
+/* Шапка */
+.bp-header {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 6em 1.875em 1.875em;
+	text-align: center;
+}
+
+.bp-header h1 {
+	font-size: 2.125em;
+	font-weight: 400;
+	line-height: 1.3;
+	margin: 0 0 .6em 0;
+}
+
+
+@media screen and (max-width: 40em) {
+	.bp-header h1 {
+		font-size: 1.8em;
+	}
+	.bp-header h2 {
+		font-size: 1.3em;
+	}
+}
