@@ -9,7 +9,7 @@ use yii\helpers\Url;
 
 <header class="main-header">
 
-    <?= Html::a('<span class="logo-mini">IL</span><span class="logo-lg">' . Yii::$app->name . '</span>', '/admin', ['class' => 'logo']) ?>
+    <?= Html::a('<span class="logo-mini">G</span><span class="logo-lg">' . Yii::$app->name . '</span>', '/admin', ['class' => 'logo']) ?>
 
     <nav class="navbar navbar-static-top" role="navigation">
 
