@@ -11,46 +11,15 @@ $config = [
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
-        '@uploads' => '@app/web/uploads',
-        '@uploadsUrl' => '/uploads',
-        '@noAvatar' => '/uploads/no-avatar.jpg',
     ],
-    'modules' => [
-        'admin' => [
-            'class' => 'app\modules\admin\Module',
-            'viewPath' => '@app/modules/admin/views',
 
-            'as access' => [
-                'class' => 'yii\filters\AccessControl',
-                'except' => ['auth/login', 'auth/error', 'auth/captcha'],
-                'rules' => [
-                    [
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-        ],
-    ],
     'components' => [
-        'assetManager' => [
-            'bundles' => [
-                'dmstr\web\AdminLteAsset' => [
-                    'skin' => 'skin-blue',
-                ],
-            ],
-        ],
         'request' => [
             'cookieValidationKey' => '1O3KI3VfjCB72twDUisvSuNAokClCJk0',
             'baseUrl' => ''
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
-        ],
-        'user' => [
-            'identityClass' => \app\modules\admin\entities\User::class,
-            'enableAutoLogin' => true,
-            'loginUrl' => ['admin/auth/login'],
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
